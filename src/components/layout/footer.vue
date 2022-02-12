@@ -5,17 +5,13 @@
         <v-row align="start">
           <v-col cols="12" md="3">
             <h4 class="text-h5 font-weight-bold">
-              Giraffe
+              Friday Football Talks
             </h4>
-            <p class="text-body-1">
-              Create, prototype, collaborate and turn your ideas into incredible
-              products with the definitive platform for digital design.
-            </p>
           </v-col>
 
           <v-col cols="12" md="3">
             <v-list flat color="transparent">
-              <v-subheader class="text-h6">HeroUI</v-subheader>
+              <v-subheader class="text-h6">Social Media</v-subheader>
               <v-list-item-group color="primary">
                 <v-list-item
                   v-for="(item, i) in heroui"
@@ -91,10 +87,9 @@
           Copyright &copy;
           <a
             class="white--text"
-            href="https://heroui.net"
             target="_blank"
             rel="noopener noreferrer"
-            >HreoUI</a
+            >FridayFootballTalks</a
           >
           {{ new Date().getFullYear() }}. All rights reserved.
         </div>
@@ -108,11 +103,11 @@ export default {
   data: () => ({
     heroui: [
       {
-        text: "Github",
+        text: "Instagram",
         href: "https://github.com/AGDholo",
       },
       {
-        text: "Themes",
+        text: "Twitter",
         href: "https://heroui.net/",
       },
     ],

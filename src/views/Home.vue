@@ -9,12 +9,12 @@
           height="500px"
           dark
         >
-          <v-card-text class="fill-height d-flex align-end">
+          <v-card-text class="fill-height d-flex align-end" dark>
             <v-row class="flex-column">
               <v-col>
                 <v-btn color="accent" to="category">Travel</v-btn>
               </v-col>
-              <v-col cols="12" md="10" lg="8" xl="7">
+              <v-col cols="12" md="10" lg="8" xl="7" dark>
                 <h2 class="text-h3 py-3" style="line-height: 1.2">
                   Great Travel Blogs From Around The World To Inspire You
                 </h2>
@@ -32,11 +32,11 @@
       </v-card>
     </div>
 
-    <v-row>
+    <v-row class="white--text">
       <v-col cols="12" lg="12" xl="8">
         <div>
           <div class="pt-16">
-            <h2 class="text-h4 font-weight-bold pb-4">Recommended For You</h2>
+            <h2 dark class="text-h4 font-weight-bold pb-4">Recommended For You</h2>
 
             <v-row>
               <v-col cols="12" md="6" lg="4" v-for="i in 6" :key="i">
@@ -67,7 +67,7 @@
                       </v-img>
 
                       <v-card-text>
-                        <div class="text-h5 font-weight-bold primary--text">
+                        <div dark class="text-h5 font-weight-bold white--text">
                           How to write an awesome blog post in 5 steps
                         </div>
 

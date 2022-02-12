@@ -21,9 +21,9 @@ const routes = [
     component: () => import("@/views/Detail.vue"),
   },
   {
-    path: '/authors',
-    name: 'Authors',
-    component: () => import("@/views/Authors.vue"),
+    path: '/submit-articles',
+    name: 'Submit Articles',
+    component: () => import("@/views/SubmitArticles.vue"),
   }
 ]
 

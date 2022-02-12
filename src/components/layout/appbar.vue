@@ -5,10 +5,9 @@
       v-model="drawer"
       :clipped="$vuetify.breakpoint.lgAndUp"
       app
-      color="primary"
-      dark
+      color=""
     >
-      <v-list nav color="primary">
+      <v-list nav color="black">
         <v-list-item
           v-for="(item, i) in btnItems"
           :key="i"
@@ -59,8 +58,8 @@
               class="font-weight-bold text-h5 primary--text"
               @click="$router.push('/')"
             >
-              <v-icon large color="primary">mdi-feather</v-icon>Hero
-              <span class="accent--text">UI</span>
+              <v-icon large color="black">mdi-feather</v-icon>Friday Football
+              <span class="accent--text">Talks</span>
             </v-toolbar-title>
           </v-col>
 
@@ -104,11 +103,11 @@ export default {
     drawer: null,
     btnItems: [
       {
-        text: "Free Download",
+        text: "Our Podcast",
         href: "https://github.com/AGDholo/giraffe",
         target: "_black",
         color: "primary",
-        icon: "mdi-download",
+        icon: "mdi-Spotify",
       },
     ],
     barItems: [
@@ -117,16 +116,20 @@ export default {
         to: "/",
       },
       {
-        title: "Category",
+        title: "Football",
         to: "/category",
       },
       {
-        title: "Detail",
+        title: "Basketball",
         to: "/detail",
       },
       {
-        title: "Authors",
+        title: "Baseball",
         to: "/authors",
+      },
+      {
+        title: "Submit Articles",
+        to: "/submit-articles",
       },
     ],
   }),

@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col cols="12" lg="12" xl="8">
-        <div>
+        <div class="white--text">
           <div>
             <div>
               <h2 class="text-h4 font-weight-bold">ANIMAL</h2>
@@ -41,11 +41,11 @@
                       </v-img>
 
                       <v-card-text>
-                        <div class="text-h5 font-weight-bold primary--text">
+                        <div class="text-h5 font-weight-bold white--text">
                           How to write an awesome blog post in 5 steps
                         </div>
 
-                        <div class="text-body-1 py-4">
+                        <div class="text-body-1 py-4 white--text">
                           Ultrices sagittis orci a scelerisque. Massa placerat
                           duis ultricies lacus sed turpis
                         </div>
